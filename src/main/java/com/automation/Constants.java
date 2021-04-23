@@ -2,7 +2,7 @@ package com.automation;
 
 public class Constants {
 
-    public static final String BASE_URL = "http://automationpractice.com";
+    public static final String BASE_URL = "http://sampleapp.tricentis.com/101/app.php";
 
     public static final String ROOT_FILES_FOLDER = "src/main/java/com/automation/files/";
 

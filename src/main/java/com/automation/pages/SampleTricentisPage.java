@@ -4,6 +4,7 @@ import com.codeborne.selenide.SelenideElement;
 
 import static com.codeborne.selenide.Selectors.byId;
 import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
 
 public class SampleTricentisPage {
 
@@ -12,7 +13,7 @@ public class SampleTricentisPage {
 
     public SampleTricentisPage Automobile() {
 
-        AUTOMOBILE.click();
+        open("/app.php");
         return this;
     }
 

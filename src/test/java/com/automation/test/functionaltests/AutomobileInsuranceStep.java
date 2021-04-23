@@ -19,7 +19,7 @@ public class AutomobileInsuranceStep extends SampleAppTricentisBaseTest {
     @Given("that I'm in the Automobile Insurance form")
     public void thatIMInTheAutomobileInsuranceForm() {
 
-        //sampleTricentisPage.Automobile();
+        sampleTricentisPage.Automobile();
 
     }
 

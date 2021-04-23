@@ -1,7 +1,6 @@
 package com.automation.test;
 
 
-import com.automation.Constants;
 import com.codeborne.selenide.Configuration;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -29,7 +28,7 @@ public class RunCucumberTest {
 
         Configuration.browser = "chrome";
         clearBrowserCache();
-        open(Constants.BASE_URL);
+        Configuration.baseUrl = "http://sampleapp.tricentis.com/101";
         Configuration.startMaximized = true;
 
     }
